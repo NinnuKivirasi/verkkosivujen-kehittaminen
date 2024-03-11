@@ -86,13 +86,11 @@ a:active {
   height: 100%;
   background-color: rgb(80, 156, 222);
   text-align: left;
-  padding: none;
 }
 .right{
   width:75%;
   height:100%;
   float: right;
-  padding: auto;
 }
 
 main::after{
