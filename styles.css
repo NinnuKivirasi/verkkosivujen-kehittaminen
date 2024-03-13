@@ -1,19 +1,45 @@
 
 body {
-    background-color: rgb(174, 90, 90);
+    background-color: rgb(0, 0, 0);
     color: white;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
+h1 {
+    font-size: 20px;
+    border: 1px;
+}
+h2{
+  border: 3px;
+  border-style:double;
+}
+p {
+  font-size: 12px;
+  color: green;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  height: auto;
+} 
 header, footer{
     background-color: rgb(45, 45, 51);
     text-align: center;
     padding: 20px;
   }
-  div{
+div{
     width: 100%;
     height: auto;
+    border-style: dotted;
+    border: 12px;
+    background-color: azure;
+  }
+  .div{
+    width: 100px;
+    height: 100px;
+    border-style: dotted;
+    border: 12px;
     background-color: azure;
   }
 nav{
@@ -23,6 +49,14 @@ nav{
     color: black;
     height: 100%;
   }
+.img1{
+    width: 50%;
+    float: left;
+  }
+.img2{
+  width: 50%;
+  float: right;
+}
 main{
   height: 100%;
   background-color: rgb(80, 156, 222);
@@ -32,38 +66,11 @@ section{
     width: 100%;
     height: 100%;
 }
-.img2{
-    float: left;
-    width: 50%;
-    height: auto;
-  }
-  .img3{
-    float: right;
-    width: 50%;
-    height: auto;
-  }
+
 
 a{
   color: black;
 }
-
-h1 {
-    font-size: 40px;
-    border: 2px;
-}
-h2{
-    border: 3px;
-    border-style:double;
-}
-p {
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    padding: 30px;
-    text-align: center;
-    height: auto;
-  } 
-
 ul{
     list-style-type: square;
     color: black;
