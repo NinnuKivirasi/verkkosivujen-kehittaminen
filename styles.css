@@ -7,21 +7,21 @@ body {
     margin-right: auto;
   }
 h1 {
-    font-size: 5vh;
+    font-size: 3vw;
     border: 1px;
 }
 p {
-  font-size: 2,5vh;
+  font-size: 1vw;
   color: rgb(199, 199, 199);
   border-radius: 10%;
-  padding: 4vh;
+  padding: 2vw;
   text-align: center;
   height: auto;
 } 
 header, footer{
     background-color: rgb(45, 45, 51);
     text-align: center;
-    padding: 4vh;
+    padding: 2vw;
   }
 div{
     width: 100%;
@@ -30,29 +30,28 @@ div{
   }
 nav{
     background-color: rgb(147, 113, 179);
-    padding: 4vh;
+    padding: 2vw;
     text-align: center;
     color: black;
     height: 100%;
   }
   img{
-    width: 90vh;
-    margin: 2vh;
-    margin-right: 2vh;
+    width: 40vw;
+    margin: 1vw;
+    margin-right: 1vw;
 
   }
 .img1{
-    width: 95vh;
+  width: 45%;
     float: left;
   }
 .img2{
-  width: 90vh;
+  width: 45%;
   float: right;
 }
 main{
-  height: 80vh;
+  height: 35vw;
   background-color: rgb(185, 185, 185);
-
 }
 section{
     background-color: rgb(180, 180, 180);
@@ -61,12 +60,12 @@ section{
 }
 .pf{
   color: green;
-  border-radius: 2vh;
+  border-radius: 1vw;
   background-color: antiquewhite;
   }
 a{
   color: black;
-  padding: 4vh;
+  padding: 2vw;
 }
 ul{
     list-style-type: square;
@@ -85,7 +84,7 @@ a:active {
   float: left;
   width: 25%;
   height: 100%;
-  background-color: rgb(255, 213, 213);
+  background-color: rgb(223, 217, 217);
   text-align: left;
 }
 .right{
